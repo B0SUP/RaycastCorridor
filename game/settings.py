@@ -12,7 +12,7 @@ FPS_POS = (WIDTH - 65, 5)
 
 
 
-#RTX))
+#RayCast
 FOV = math.pi / 3
 HALF_FOV = FOV / 2
 NUM_RAYS = 300
@@ -22,12 +22,12 @@ DIST = NUM_RAYS / (2 * math.tan(HALF_FOV))
 PROJ_COEFF = DIST * TILE
 SCALE = WIDTH // NUM_RAYS
 
-#ГРАВЕЦЬ
+#Player
 player_pos = (HALF_WIDTH, HALF_HEIGHT)
 player_angle = 0
 player_speed = 2
 
-#КОЛІР
+#Color
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (220, 0, 0)
